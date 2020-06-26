@@ -120,4 +120,7 @@
   <data name="NotSoFunnyWoman" xml:space="preserve">
     <value>Nevtipná žena</value>
   </data>
+  <data name="WeblateTestTool" xml:space="preserve">
+    <value>Weblate testovací nástroj</value>
+  </data>
 </root>
