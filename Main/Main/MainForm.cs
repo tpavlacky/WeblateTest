@@ -17,6 +17,7 @@ namespace Main
     {
       InitializeComponent();
       cbGender.DataSource = Enum.GetValues(typeof(Gender));
+      lblHeader.Text = Resources.WeblateTestTool;
     }
 
     protected override void OnLoad(EventArgs e)

@@ -77,5 +77,14 @@ namespace Main.Properties {
                 return ResourceManager.GetString("NotSoFunnyWoman", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weblate test tool.
+        /// </summary>
+        internal static string WeblateTestTool {
+            get {
+                return ResourceManager.GetString("WeblateTestTool", resourceCulture);
+            }
+        }
     }
 }

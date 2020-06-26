@@ -120,4 +120,7 @@
   <data name="NotSoFunnyWoman" xml:space="preserve">
     <value>Not so funny woman</value>
   </data>
+  <data name="WeblateTestTool" xml:space="preserve">
+    <value>Weblate test tool</value>
+  </data>
 </root>

@@ -30,7 +30,7 @@
     {
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
       this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-      this.label1 = new System.Windows.Forms.Label();
+      this.lblHeader = new System.Windows.Forms.Label();
       this.label2 = new System.Windows.Forms.Label();
       this.label3 = new System.Windows.Forms.Label();
       this.label4 = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@
       // tableLayoutPanel1
       // 
       resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
-      this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+      this.tableLayoutPanel1.Controls.Add(this.lblHeader, 0, 0);
       this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
       this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
       this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
@@ -61,11 +61,11 @@
       this.tableLayoutPanel1.Controls.Add(this.btnAdd, 1, 5);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
       // 
-      // label1
+      // lblHeader
       // 
-      resources.ApplyResources(this.label1, "label1");
-      this.tableLayoutPanel1.SetColumnSpan(this.label1, 2);
-      this.label1.Name = "label1";
+      resources.ApplyResources(this.lblHeader, "lblHeader");
+      this.tableLayoutPanel1.SetColumnSpan(this.lblHeader, 2);
+      this.lblHeader.Name = "lblHeader";
       // 
       // label2
       // 
@@ -138,7 +138,7 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
