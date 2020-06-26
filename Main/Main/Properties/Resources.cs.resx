@@ -123,4 +123,25 @@
   <data name="WeblateTestTool" xml:space="preserve">
     <value>Weblate testovací nástroj</value>
   </data>
+  <data name="Male" xml:space="preserve">
+    <value>Samec</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Samice</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="WhoKnows" xml:space="preserve">
+    <value>Kdo ví</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Příjmení</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Pohlaví</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Popis</value>
+  </data>
 </root>
