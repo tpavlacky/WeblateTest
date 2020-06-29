@@ -41,6 +41,7 @@
       this.tbDescription = new System.Windows.Forms.TextBox();
       this.cbGender = new System.Windows.Forms.ComboBox();
       this.btnAdd = new System.Windows.Forms.Button();
+      this.btnOpen = new System.Windows.Forms.Button();
       this.tableLayoutPanel1.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.peopleDgv)).BeginInit();
       this.SuspendLayout();
@@ -59,6 +60,7 @@
       this.tableLayoutPanel1.Controls.Add(this.tbDescription, 1, 4);
       this.tableLayoutPanel1.Controls.Add(this.cbGender, 1, 3);
       this.tableLayoutPanel1.Controls.Add(this.btnAdd, 1, 5);
+      this.tableLayoutPanel1.Controls.Add(this.btnOpen, 0, 6);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
       // 
       // lblHeader
@@ -91,7 +93,9 @@
       // 
       this.peopleDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
       resources.ApplyResources(this.peopleDgv, "peopleDgv");
+      this.peopleDgv.MultiSelect = false;
       this.peopleDgv.Name = "peopleDgv";
+      this.peopleDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
       // 
       // tbName
       // 
@@ -122,6 +126,13 @@
       this.btnAdd.UseVisualStyleBackColor = true;
       this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
       // 
+      // btnOpen
+      // 
+      resources.ApplyResources(this.btnOpen, "btnOpen");
+      this.btnOpen.Name = "btnOpen";
+      this.btnOpen.UseVisualStyleBackColor = true;
+      this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+      // 
       // MainForm
       // 
       resources.ApplyResources(this, "$this");
@@ -149,6 +160,7 @@
         private System.Windows.Forms.TextBox tbDescription;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.ComboBox cbGender;
+        private System.Windows.Forms.Button btnOpen;
     }
 }
 

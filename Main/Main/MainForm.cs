@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
+using Details;
 using Main.Properties;
 
 namespace Main
@@ -31,6 +32,15 @@ namespace Main
       var people = (BindingList<Person>)peopleDgv.DataSource;
       var person = new Person(){Name = tbName.Text, LastName = tbLastName.Text, Gender = ((Gender)cbGender.SelectedItem).Caption, Description = tbDescription.Text};
       people.Add(person);
+    }
+
+    private void btnOpen_Click(object sender, EventArgs e)
+    {
+      var person = peopleDgv.SelectedRows[0].DataBoundItem as Person;
+      using (var details = new DetailsForm(person?.Name, person?.LastName))
+      {
+        details.ShowDialog(this);
+      }
     }
   }
 }

@@ -169,7 +169,7 @@
     <value>3, 44</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 25</value>
+    <value>133, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -202,7 +202,7 @@
     <value>3, 69</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 25</value>
+    <value>133, 25</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -235,7 +235,7 @@
     <value>3, 94</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 25</value>
+    <value>133, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -268,7 +268,7 @@
     <value>3, 119</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 25</value>
+    <value>133, 25</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -295,10 +295,10 @@
     <value>Fill</value>
   </data>
   <data name="peopleDgv.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 176</value>
+    <value>142, 176</value>
   </data>
   <data name="peopleDgv.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 231</value>
+    <value>515, 231</value>
   </data>
   <data name="peopleDgv.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -319,10 +319,10 @@
     <value>Left, Right</value>
   </data>
   <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 47</value>
+    <value>142, 47</value>
   </data>
   <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 20</value>
+    <value>515, 20</value>
   </data>
   <data name="tbName.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -343,10 +343,10 @@
     <value>Left, Right</value>
   </data>
   <data name="tbLastName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 72</value>
+    <value>142, 72</value>
   </data>
   <data name="tbLastName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 20</value>
+    <value>515, 20</value>
   </data>
   <data name="tbLastName.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -367,10 +367,10 @@
     <value>Left, Right</value>
   </data>
   <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 122</value>
+    <value>142, 122</value>
   </data>
   <data name="tbDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 20</value>
+    <value>515, 20</value>
   </data>
   <data name="tbDescription.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -391,10 +391,10 @@
     <value>Left, Right</value>
   </data>
   <data name="cbGender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 97</value>
+    <value>142, 97</value>
   </data>
   <data name="cbGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 21</value>
+    <value>515, 21</value>
   </data>
   <data name="cbGender.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -441,6 +441,30 @@
   <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="btnOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="btnOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="btnOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnOpen.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Name" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -469,7 +493,7 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHeader" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="peopleDgv" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbLastName" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbDescription" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cbGender" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnAdd" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34.24242,Percent,65.75758" /&gt;&lt;Rows Styles="Absolute,44,Absolute,25,Absolute,25,Absolute,25,Absolute,25,Absolute,29,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHeader" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="peopleDgv" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbLastName" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tbDescription" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cbGender" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnAdd" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnOpen" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,21.21212,Percent,78.78788" /&gt;&lt;Rows Styles="Absolute,44,Absolute,25,Absolute,25,Absolute,25,Absolute,25,Absolute,29,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
