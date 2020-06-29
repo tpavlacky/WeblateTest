@@ -65,10 +65,10 @@
     <value>Jméno</value>
   </data>
   <data name="&gt;&gt;tbLastName.Parent" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="lblHeader.Text" xml:space="preserve">
-    <value>Weblate testovací nástroj</value>
+    <value>Weblate testovací nástroj 123456</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Popis</value>
